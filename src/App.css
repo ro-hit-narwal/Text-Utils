@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.accordion-button:not(.collapsed)::after {
+  filter: brightness(100%);
+}
+
+.accordion-collapse {
+  background-color: #212529;
+  color: white;
+}
